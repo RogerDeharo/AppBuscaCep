@@ -30,6 +30,20 @@
 
                 <Label Grid.Row="5" Grid.Column="0" Text="complemento" />
                 <Label Grid.Row="5" Grid.Column="1" Text="{Binding complemento}" />
+
+                <Label Grid.Row="6" Grid.Column="0" Text="descricao_sem_numerp" />
+                <Label Grid.Row="6" Grid.Column="1" Text="{Binding descricao_sem_numero}" />
+
+                <Label Grid.Row="7" Grid.Column="0" Text="descricao_cidade" />
+                <Label Grid.Row="7" Grid.Column="1" Text="{Binding descricao_cidade}" />
+
+                <Label Grid.Row="8" Grid.Column="0" Text="codigo_cidade_ibge" />
+                <Label Grid.Row="8" Grid.Column="1" Text="{Binding codigo_cidade_ibge}" />
+
+                <Label Grid.Row="9" Grid.Column="0" Text="descricao_bairro" />
+                <Label Grid.Row="9" Grid.Column="1" Text="{Binding descricao_bairro}" />
+
+                
             </Grid>
         </VerticalStackLayout>
     </ScrollView>
